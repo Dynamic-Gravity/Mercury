@@ -23,6 +23,9 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
 
+  <!-- Make Code pretty  -->
+  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -32,11 +35,134 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
+  <div class="container"> 
     <div>
       <h4>Basic Page</h4>
-      <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+      <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com" target="_new">Skeleton documentation</a>.</p>
     </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Typography Examples  -->
+  <div class="container">
+    <!-- Standard Headings -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!-- Base type size -->
+    <p>The base type is 15px over 1.6 line height (24px)</p>
+
+    <!-- Other styled text tags -->
+    <strong>Bolded</strong>
+    <em>Italicized</em>
+    <a>Colored</a>
+    <u>Underlined</u>
+  </div>
+  
+  <!-- Button Examples  -->
+  <div class="container">
+    <!-- Standard buttons -->
+    <a class="button" href="#">Anchor button</a>
+    <button>Button element</button>
+    <input value="submit input" type="submit">
+    <input value="button input" type="button">
+
+    <!-- Primary buttons -->
+    <a class="button button-primary" href="#">Anchor button</a>
+    <button class="button-primary">Button element</button>
+    <input class="button-primary" value="submit input" type="submit">
+    <input class="button-primary" value="button input" type="button">
+  </div>
+  
+  <!-- Form Example  -->
+  <div class="container">
+    <!-- The above form looks like this -->
+    <form>
+      <div class="row">
+        <div class="six columns">
+          <label for="exampleEmailInput">Your email</label>
+          <input class="u-full-width" placeholder="test@mailbox.com" id="exampleEmailInput" type="email">
+        </div>
+        <div class="six columns">
+          <label for="exampleRecipientInput">Reason for contacting</label>
+          <select class="u-full-width" id="exampleRecipientInput">
+            <option value="Option 1">Questions</option>
+            <option value="Option 2">Admiration</option>
+            <option value="Option 3">Can I get your number?</option>
+          </select>
+        </div>
+      </div>
+      <label for="exampleMessage">Message</label>
+      <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+      <label class="example-send-yourself-copy">
+        <input type="checkbox">
+        <span class="label-body">Send a copy to yourself</span>
+      </label>
+      <input class="button-primary" value="Submit" type="submit">
+    </form>
+
+    <!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
+
+    <!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% -->
+  </div>
+
+  <!-- List Example -->
+  <div class="container">
+    <ul>
+      <li>Item 1</li>
+      <li>
+        Item 2
+        <ul>
+          <li>Item 2.1</li>
+          <li>Item 2.2</li>
+        </ul>
+      </li>
+      <li>Item 3</li>
+    </ul>
+
+    <!-- Easily substitute any <ul> or an <ol> to get number lists or sublists. Skeleton doesn't support lists nested deeper than 2 levels -->
+  </div>
+
+  <!-- Code Example  -->
+  <div class="container">
+    <pre class="prettyprint"><code>.some-class {
+  background-color: red;
+}</code></pre>
+
+<!-- Remember every whitespace and break will be preserved in a <pre>, including indentation in your code -->
+  </div>
+
+  <!-- Table Example  -->
+  <div class="container">
+    <table class="u-full-width">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Sex</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Dave Gamache</td>
+          <td>26</td>
+          <td>Male</td>
+          <td>San Francisco</td>
+        </tr>
+        <tr>
+          <td>Dwayne Johnson</td>
+          <td>42</td>
+          <td>Male</td>
+          <td>Hayward</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 
 <!-- End Document

@@ -145,11 +145,11 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 a {
-    color: hsl(194, 76%, 49%);
+    color: hsl(120, 100%, 40%);
 }
 
 a:hover {
-    color: hsl(194, 86%, 43%);
+    color: hsl(120, 100%, 30%);
 }
 
 
@@ -164,7 +164,7 @@ input[type="button"] {
     display: inline-block;
     height: 38px;
     padding: 0 30px;
-    color: hsl(0, 0%, 33%);
+    color: hsl(0, 0%, 73%);
     text-align: center;
     font-size: 11px;
     font-weight: 600;
@@ -190,7 +190,7 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-    color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 53%);
     border-color: hsl(0, 0%, 53%);
     outline: 0;
 }
@@ -201,8 +201,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
     color: hsl(0, 0%, 100%);
-    background-color: hsl(194, 86%, 57%);
-    border-color: hsl(194, 86%, 57%);
+    background-color: hsl(120, 100%, 40%);
+    border-color: hsl(120, 100%, 40%);
 }
 
 .button.button-primary:hover,
@@ -216,8 +216,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
     color: hsl(0, 0%, 100%);
-    background-color: hsl(194, 76%, 49%);
-    border-color: hsl(194, 76%, 49%);
+    background-color: hsl(120, 100%, 30%);
+    border-color: hsl(120, 100%, 30%);
 }
 
 
@@ -236,8 +236,8 @@ select {
     height: 38px;
     padding: 6px 10px;
     /* The 6px vertically centers text on FF, ignored by Webkit */
-    background-color: hsl(0, 0%, 100%);
-    border: 1px solid hsl(0, 0%, 82%);
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 73%);
     border-radius: 4px;
     box-shadow: none;
     box-sizing: border-box;
@@ -274,7 +274,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-    border: 1px solid hsl(194, 86%, 57%);
+    border: 1px solid hsl(120, 100%, 40%);
     outline: 0;
 }
 
