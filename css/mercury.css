@@ -30,11 +30,23 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+/* Parent  */
 .container {
     display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(5, 1fr);
-    width: 100%;
+    grid-template-columns: 1fr 1fr 10rem;
+}
+/* Children  */
+.container > .header {
+    grid-area: 1 / span 3;
+}
+.container > .sidebar {
+    grid-area: 2 / 3;
+}
+.container > .body {
+    grid-area: 2 / span 2;
+}
+.container > .footer {
+    grid-area: 3 / span 3;
 }
 
 
